@@ -42,9 +42,21 @@
 //     alert("שלום, " + elem + "! בהצלחה במבחן!");
 // });
 
-//Task#15
-const pricesILS = [100, 250, 75, 320];
-let priceDolar = pricesILS.map(function (elem) {
-    return elem / 3.5;
+// //Task#15
+// const pricesILS = [100, 250, 75, 320];
+// let priceDolar = pricesILS.map(function (elem) {
+//     return elem / 3.5;
+// });
+// alert(priceDolar);
+
+//Task#16
+const users = [
+    { username: "Tom", isLoggedIn: true },
+    { username: "Jerry", isLoggedIn: false },
+    { username: "Spike", isLoggedIn: true }
+];
+let res = users.filter(function (elem) {
+    if (elem.isLoggedIn)
+        return true;
 });
-alert(priceDolar);
+console.log(res);
