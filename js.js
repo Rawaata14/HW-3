@@ -36,8 +36,15 @@
 // let sentence = words.join(' ');
 // alert(sentence);
 
-//Task#14
-const students = ["דני", "נועה", "רן", "תמר"];
-students.forEach(function (elem) {
-    alert("שלום, " + elem + "! בהצלחה במבחן!");
+// //Task#14
+// const students = ["דני", "נועה", "רן", "תמר"];
+// students.forEach(function (elem) {
+//     alert("שלום, " + elem + "! בהצלחה במבחן!");
+// });
+
+//Task#15
+const pricesILS = [100, 250, 75, 320];
+let priceDolar = pricesILS.map(function (elem) {
+    return elem / 3.5;
 });
+alert(priceDolar);
