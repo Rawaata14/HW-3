@@ -72,9 +72,23 @@
 // });
 // console.log(res);
 
-//Task#18
-const grades = [72, 85, 90, 67, 58];
-let check = grades.every(function (elem) {
-    return (elem >= 60);
+// //Task#18
+// const grades = [72, 85, 90, 67, 58];
+// let check = grades.every(function (elem) {
+//     return (elem >= 60);
+// });
+// console.log(check);
+
+//Task#19
+const employees = [
+    { name: "Sharon", salary: 9500 },
+    { name: "David", salary: 7800 },
+    { name: "Lior", salary: 12000 }
+];
+let res = employees.filter(function (elem) {
+    if (elem.salary > 8000)
+        return true;
 });
-console.log(check);
+res.forEach(function (elem) {
+    console.log(elem.name.toUpperCase());
+});
