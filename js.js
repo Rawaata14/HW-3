@@ -9,8 +9,15 @@
 // colors.splice(0, 1);
 // alert(colors);
 
-//Task#7
-const animals1 = ["cat", "dog"];
-const animals2 = ["lion", "tiger"];
-let animals3 = animals1.concat(animals2);
-alert(animals3);
+// //Task#7
+// const animals1 = ["cat", "dog"];
+// const animals2 = ["lion", "tiger"];
+// let animals3 = animals1.concat(animals2);
+// alert(animals3);
+
+//Task#8
+const numbers = [7, 3, 9, 1, 5];
+numbers.sort(function (a, b) {
+    return a - b;
+});
+alert(numbers);
