@@ -49,14 +49,25 @@
 // });
 // alert(priceDolar);
 
-//Task#16
-const users = [
-    { username: "Tom", isLoggedIn: true },
-    { username: "Jerry", isLoggedIn: false },
-    { username: "Spike", isLoggedIn: true }
+// //Task#16
+// const users = [
+//     { username: "Tom", isLoggedIn: true },
+//     { username: "Jerry", isLoggedIn: false },
+//     { username: "Spike", isLoggedIn: true }
+// ];
+// let res = users.filter(function (elem) {
+//     if (elem.isLoggedIn)
+//         return true;
+// });
+// console.log(res);
+
+//Task#17
+const products = [
+    { name: "Book", quantity: 3 },
+    { name: "Pen", quantity: 0 },
+    { name: "Notebook", quantity: 5 }
 ];
-let res = users.filter(function (elem) {
-    if (elem.isLoggedIn)
-        return true;
+let res = products.some(function (elem) {
+    return elem.quantity == 0;
 });
 console.log(res);
