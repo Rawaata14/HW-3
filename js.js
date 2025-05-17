@@ -26,7 +26,12 @@
 // const letters = ["a", "b", "c", "d"];
 // alert(letters.reverse());
 
-//Task#10
-const sentence = "JavaScript is awesome";
-let arr = sentence.split(' ');
-alert(arr);
+// //Task#10
+// const sentence = "JavaScript is awesome";
+// let arr = sentence.split(' ');
+// alert(arr);
+
+//Task#11
+const words = ["Hello", "world"];
+let sentence = words.join(' ');
+alert(sentence);
