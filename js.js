@@ -15,9 +15,13 @@
 // let animals3 = animals1.concat(animals2);
 // alert(animals3);
 
-//Task#8
-const numbers = [7, 3, 9, 1, 5];
-numbers.sort(function (a, b) {
-    return a - b;
-});
-alert(numbers);
+// //Task#8
+// const numbers = [7, 3, 9, 1, 5];
+// numbers.sort(function (a, b) {
+//     return a - b;
+// });
+// alert(numbers);
+
+//Task#9
+const letters = ["a", "b", "c", "d"];
+alert(letters.reverse());
