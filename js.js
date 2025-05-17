@@ -22,6 +22,11 @@
 // });
 // alert(numbers);
 
-//Task#9
-const letters = ["a", "b", "c", "d"];
-alert(letters.reverse());
+// //Task#9
+// const letters = ["a", "b", "c", "d"];
+// alert(letters.reverse());
+
+//Task#10
+const sentence = "JavaScript is awesome";
+let arr = sentence.split(' ');
+alert(arr);
