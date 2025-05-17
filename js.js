@@ -31,7 +31,13 @@
 // let arr = sentence.split(' ');
 // alert(arr);
 
-//Task#11
-const words = ["Hello", "world"];
-let sentence = words.join(' ');
-alert(sentence);
+// //Task#11
+// const words = ["Hello", "world"];
+// let sentence = words.join(' ');
+// alert(sentence);
+
+//Task#14
+const students = ["דני", "נועה", "רן", "תמר"];
+students.forEach(function (elem) {
+    alert("שלום, " + elem + "! בהצלחה במבחן!");
+});
