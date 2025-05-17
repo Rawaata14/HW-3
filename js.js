@@ -79,16 +79,31 @@
 // });
 // console.log(check);
 
-//Task#19
-const employees = [
-    { name: "Sharon", salary: 9500 },
-    { name: "David", salary: 7800 },
-    { name: "Lior", salary: 12000 }
+// //Task#19
+// const employees = [
+//     { name: "Sharon", salary: 9500 },
+//     { name: "David", salary: 7800 },
+//     { name: "Lior", salary: 12000 }
+// ];
+// let res = employees.filter(function (elem) {
+//     if (elem.salary > 8000)
+//         return true;
+// });
+// res.forEach(function (elem) {
+//     console.log(elem.name.toUpperCase());
+// });
+
+//Task#20
+const books = [
+    { title: "Book A", pages: 450 },
+    { title: "Book B", pages: 520 },
+    { title: "Book C", pages: 600 }
 ];
-let res = employees.filter(function (elem) {
-    if (elem.salary > 8000)
-        return true;
-});
-res.forEach(function (elem) {
-    console.log(elem.name.toUpperCase());
-});
+if (books.some(function (elem) {
+    return (elem.pages > 500);
+})) {
+    let res = books.filter(function (elem) {
+        return (elem.pages > 500);
+    });
+    console.log(res);
+}
