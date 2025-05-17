@@ -61,13 +61,20 @@
 // });
 // console.log(res);
 
-//Task#17
-const products = [
-    { name: "Book", quantity: 3 },
-    { name: "Pen", quantity: 0 },
-    { name: "Notebook", quantity: 5 }
-];
-let res = products.some(function (elem) {
-    return elem.quantity == 0;
+// //Task#17
+// const products = [
+//     { name: "Book", quantity: 3 },
+//     { name: "Pen", quantity: 0 },
+//     { name: "Notebook", quantity: 5 }
+// ];
+// let res = products.some(function (elem) {
+//     return elem.quantity == 0;
+// });
+// console.log(res);
+
+//Task#18
+const grades = [72, 85, 90, 67, 58];
+let check = grades.every(function (elem) {
+    return (elem >= 60);
 });
-console.log(res);
+console.log(check);
